@@ -32,7 +32,7 @@ const HeroSection = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="text-base border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground hover:text-secondary">
+              <Button asChild size="lg" variant="outline" className="text-base border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground hover:text-secondary bg-secondary-foreground/10">
                 <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
